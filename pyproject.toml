@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "youtube-playlist-tools"
+version = "0.1.0"
+description = "Tools for managing YouTube playlists"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+dependencies = [
+    "google-api-python-client",
+    "google-auth",
+    "google-auth-oauthlib",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "ruff",
+    "mypy",
+]
+
+[project.scripts]
+yt-manage-playlists = "youtube_playlist_tools.src.manage_playlists:main"

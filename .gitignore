@@ -172,3 +172,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# YouTube API credentials and tokens
+*_token.json
+.yt_playlist_token.json
+client_secret*.json
+
+# 1Password
+.op/

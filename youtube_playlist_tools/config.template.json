@@ -1,0 +1,10 @@
+{
+    "1password": {
+        "youtube_oauth_client_id": "op://vault-name/item-name/field-name",
+        "youtube_oauth_client_secret": "op://vault-name/item-name/field-name"
+    },
+    "playlists": {
+        "watch_later_id": "WL",
+        "target_unlisted_id": "PLwZYPD7MtnnyI36r-3Z6RbJQ__obH7FGu"
+    }
+}
